@@ -1,0 +1,29 @@
+{
+  "name": "forest-admin-example",
+  "version": "1.0.0",
+  "description": "This is an example on how to use Forest Admin.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "forest-express-mongoose": "^2.12.0",
+    "mongoose": "^5.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XavierColombel/forest-admin-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XavierColombel/forest-admin-example/issues"
+  },
+  "homepage": "https://github.com/XavierColombel/forest-admin-example#readme"
+}
